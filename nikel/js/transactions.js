@@ -66,7 +66,7 @@ function getTransactions() {
         transactions.forEach((item) => {
             let type = "Entrada";
 
-            if(item.type === 2) {
+            if(item.type === "2") {
                 type = "Saída";
             }
 
